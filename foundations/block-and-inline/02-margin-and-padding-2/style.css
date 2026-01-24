@@ -1,6 +1,15 @@
+* {
+  font-size: 16px;
+}
+
 body {
   background: #eee;
   font-family: sans-serif;
+}
+
+div, h1 {
+  padding: 16px;
+  margin: 12px;
 }
 
 .card {
@@ -19,9 +28,15 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+
 }
 
+
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  align-items: center;
+  margin: 0 auto;
 }
