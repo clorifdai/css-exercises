@@ -1,8 +1,5 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  flex-direction: column;
-
 }
 
 img {
@@ -39,14 +36,13 @@ img {
 .kontainer {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  align-content: center;
+  justify-content: center;
   gap: 52px;
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
+
   text-align: center;
+  max-width: 200px;
 
 }
